@@ -1,6 +1,6 @@
-### ISEP-BULLSHIT
+# ISEP-BULLSHIT
 ## Made by Ddxcv98
-# Avança cena chata
+### Avança cena chata
 
 1. Abrir extensões do browser.
 2. Ativar 'modo de desenvolvedor'.
