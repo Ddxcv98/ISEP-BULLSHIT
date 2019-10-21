@@ -1,0 +1,30 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "{24903080-3923-2705-0317-691886849271}"
+    }
+  },
+
+  "manifest_version": 2,
+  "name": "ISEP BULLSHIT",
+  "description": "Avança cena chata",
+  "version": "1.0",
+  "background": {"scripts": ["background.js"]},
+
+  "content_scripts": [{
+    "matches": ["https://moodle.isep.ipp.pt/blocks/limesurvey/inqueritos.php"],
+    "js": ["contentScript.js"]
+  }],
+
+  "permissions": ["https://moodle.isep.ipp.pt/"],
+
+  "browser_action": {
+    "default_title": "ISEP BULLSHIT"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
