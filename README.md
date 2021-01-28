@@ -1,6 +1,8 @@
-# ISEP-BULLSHIT
+# ISEP-SKIP
+
 ## Made by Ddxcv98
-### Avança cena chata
+
+### Avança página de inquéritos
 
 #### Chrome e derivados
 
@@ -9,11 +11,9 @@
 3. 'Load unpacked'
 4. Escolher pasta 'source'
 
-#### Firefox 
+#### Firefox
 
-1. Digitar 'about:config' no endereço
-2. Pesquisar por 'xpinstall'
-3. Duplo click em 'xpinstall.signatures.required' de modo a que este fique 'false'
-4. Abrir página 'add-ons'
-5. No topo, à direita de 'Manage Your Extensions' escolher 'Install Add-On From File...'
-6. Escolher ficheiro 'ISEP-BULLSHIT.xpi'
+1. Escolher 'Add-ons' nas opções
+2. À direita de 'Manage Your Extensions' escolher 'Debug Add-ons'
+3. 'Load Temporary Add-on...'
+4. Escolher ficheiro 'manifest.json'

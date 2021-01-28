@@ -1,12 +1,6 @@
 {
-  "applications": {
-    "gecko": {
-      "id": "{24903080-3923-2705-0317-691886849271}"
-    }
-  },
-
   "manifest_version": 2,
-  "name": "ISEP BULLSHIT",
+  "name": "ISEP SKIP",
   "description": "Avança cena chata",
   "version": "1.0",
   "background": {"scripts": ["background.js"]},
@@ -19,7 +13,7 @@
   "permissions": ["https://moodle.isep.ipp.pt/"],
 
   "browser_action": {
-    "default_title": "ISEP BULLSHIT"
+    "default_title": "ISEP SKIP"
   },
 
   "icons": {
